@@ -9,7 +9,7 @@ publiclibrary.view.listBooks = {
     //  represented by a cell
     for (index = 0; index < keys.length; index++) {
       key = keys[index];
-      row = tableBodyElements.insertRow();
+      row = tableBodyElement.insertRow();
       row.insertCell(-1).textContent = Book.instances[key].isbn;
       row.insertCell(-1).textContent = Book.instances[key].title;
       row.insertCell(-1).textContent = Book.instances[key].year;
