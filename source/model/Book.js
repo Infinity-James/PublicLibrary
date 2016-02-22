@@ -47,7 +47,7 @@ Book.saveAll = function() {
   }
 };
 
-Book.add = functuion(slots) {
+Book.add = function(slots) {
   var book = new Book(slots);
   Book.instances[slots.isbn] = book;
   console.log("Book " + slots.isbn + " created.");
