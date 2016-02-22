@@ -8,7 +8,7 @@ publiclibrary.view.deleteBook = {
     Book.loadAll();
     keys = Object.keys(Book.instances);
 
-    //  populate te select list with books
+    //  populate the select list with books
     for (index = 0; index < keys.length; index++) {
       key = keys[index];
       book = Book.instances[key];
